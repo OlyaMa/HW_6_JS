@@ -24,7 +24,7 @@ nextButton.onclick = () => {
 }
 
 prevButton.onclick = () => {
-    let activeIndex = getActivPosition()
+    let activeIndex = getIndex()
     if (activeIndex <= 0) {
         activeIndex = slides.length
     }
